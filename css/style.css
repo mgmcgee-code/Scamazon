@@ -1,0 +1,42 @@
+:root {
+    --prim: green;
+    --sec:red;
+    --tert: beige;
+
+    --mainFont:"Sofadi One", system-ui;
+    --grad: linear-gradient(
+        var(--sec), var(--prim));
+    }
+
+* {box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+.banner-image {
+    height: 20vh;
+}
+
+#header{
+    padding: 20px 0;
+    background-image: var(--grad);
+}
+
+.header-link{
+    color: white;
+}
+    
+.navbar-link:hover {
+    color:yellow;
+}
+
+
+
+
+#logo{
+    font-family: var(--mainFont);
+    color:yellow;
+}
+
